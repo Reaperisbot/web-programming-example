@@ -12,14 +12,49 @@
   </header>
 
   <nav>
-    About | Skills | Contact
+    <ul>
+      <li><a href="#About">About</a></li>
+      <li><a href="#Contact">Contact</a></li>
+    </ul>
+   
   </nav>
 
   <main>
-    <h2>About me</h2>
-    <p>My name is Emile Khoury and I'm a Computer And Communications Engineer specialized in AI. My goal is to learn the architecture and the math behind neural networks and build my own neural network for a special case.</p>
-    <p>My interests are electronics, natural language processing, and I'm currently learning the fundamentals of web development from the beginning, starting with a clean HTML page.</p>
+    <section id="About">
+      <h2>About Me</h2>
+      <p>
+       My name is Emile Khoury and I'm a Computer And Communications Engineer specialized in AI. My goal is to learn the architecture and the math behind neural networks and build my own neural network for a special case
+      </p>
+      <p>
+        My interests are electronics, natural language processing, and I'm currently learning the fundamentals of web development from the beginning, starting with a clean HTML page.
+      </p>
+    </section>
+
+    <section id="Contact">
+      <h2>Contact me</h2>
+      <form action="/submit" method="post">
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" required><br><br>
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required><br><br>
+
+        <label for="message">Message</label>
+        <input id="message" name="message" required>
+
+        <button type="submit">Send</button>
+          <!--METHOD 1 : br stands for break which means that we can go to a new line instead of keeping everything on the same line.  -->
+            
+          <!-- METHOD 2 :or we can use <p> for each one -->
+
+      </form>
+      
+    </section>
   </main>
+
+
+  <img src="usj.jpeg" alt="this is the logo of USJ" width="200" height="200">
+
     <!-- &copy is used to add "©" add the end. -->
   <footer>&copy; Emile 2026. Page built for the first homework</footer>
 
