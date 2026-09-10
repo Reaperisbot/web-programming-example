@@ -1,0 +1,92 @@
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333333;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #2c3e50;
+  color: #ffffff;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+header p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+nav {
+  background: #34495e;
+  padding: 10px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 5px 10px;
+}
+
+nav a {
+  color: #ffffff;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  background: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #dddddd;
+}
+
+h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+section p {
+  line-height: 1.6;
+}
+
+form label {
+  font-weight: 600;
+}
+
+form input {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #cccccc;
+}
+
+button {
+  background: #2c3e50;
+  color: #ffffff;
+  border: 1px solid #2c3e50;
+  padding: 8px 16px;
+}
+
+img {
+  border: 2px solid #2c3e50;
+  padding: 5px;
+}
+
+footer {
+  background: #2c3e50;
+  color: #ffffff;
+  padding: 15px;
+}
