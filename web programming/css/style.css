@@ -1,16 +1,16 @@
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: #333333;
-  background: #f4f4f4;
+  color: black;
+  background: white;
   margin: 0;
   padding: 0;
 }
 
 header {
-  background: #2c3e50;
-  color: #ffffff;
+  background: black;
+  color: white;
   padding: 20px;
 }
 
@@ -25,7 +25,7 @@ header p {
 }
 
 nav {
-  background: #34495e;
+  background: #333333; 
   padding: 10px;
 }
 
@@ -39,7 +39,7 @@ nav li {
 }
 
 nav a {
-  color: #ffffff;
+  color: white;
 }
 
 main {
@@ -47,16 +47,16 @@ main {
 }
 
 section {
-  background: #ffffff;
+  background: white;
   padding: 20px;
   margin-bottom: 20px;
-  border: 1px solid #dddddd;
+  border: 1px solid #cccccc;
 }
 
 h2 {
   font-size: 1.75rem;
   font-weight: 700;
-  color: #2c3e50;
+  color: black;
 }
 
 section p {
@@ -70,23 +70,23 @@ form label {
 form input {
   padding: 5px;
   margin-bottom: 10px;
-  border: 1px solid #cccccc;
+  border: 1px solid #999999;
 }
 
 button {
-  background: #2c3e50;
-  color: #ffffff;
-  border: 1px solid #2c3e50;
+  background: black;
+  color: white;
+  border: 1px solid black;
   padding: 8px 16px;
 }
 
 img {
-  border: 2px solid #2c3e50;
+  border: 2px solid black;
   padding: 5px;
 }
 
 footer {
-  background: #2c3e50;
-  color: #ffffff;
+  background: black;
+  color: white;
   padding: 15px;
 }
